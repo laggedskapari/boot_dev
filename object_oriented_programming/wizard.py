@@ -20,5 +20,4 @@ class Wizard:
         if (self.__mana > 20):
             self.__mana -= 30
             print(f"{self.name} casts fireball at {self.target}")
-            return
-        print(f"{self.name} cannot cast fireball")
+            return print(f"{self.name} cannot cast fireball")
